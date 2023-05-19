@@ -787,3 +787,121 @@ mark.yellow {
 }
 
 /*******************************************************************************************/
+
+.text-muted {
+  /* text */
+  display: flex;
+  max-width: 203px;
+  max-height: 105px;
+  /* left: calc(50% - 203px/2 - 0.5px); */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 175%; */
+  /* or 35px */
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  /* Neutral/Nuetral 700 */
+  color: #363636;
+
+}
+
+.d_flex {
+  position: absolute;
+  width: 31px;
+  height: 72px;
+  /* Heading/desktop/H1 */
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  /* line-height: 150%; */
+  /* identical to box height, or 72px */
+  text-align: center;
+  /* letter-spacing: 0.02em; */
+  /* Neutral/Nuetral 700 */
+  color: #363636;
+}
+
+
+/**************************************************************/
+.h9 .card-title_4 {
+  left: 224px;
+  top: 36px;
+  /* Body/desktop/Body 1 */
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* Neutral/Nuetral 700 */
+  color: #363636;
+
+}
+
+
+.title_big4 {
+  /* left: 182px;
+  margin-top: 141px; */
+  /* Heading/desktop/H2 */
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* Neutral/Nuetral 700 */
+  color: #363636
+
+}
+
+
+.fst-normal {
+  left: 182px;
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.02em;
+  /* Neutral/Nuetral 700 */
+  color: #363636;
+}
+
+
+.border_box_1 {
+  width: 365px;
+  height: 134px;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+  margin-left: 45px;
+  top: 92px;
+  /* Neutral/Neutral 200 */
+  background: #F0F0F0;
+}
+
+.card-title_6 {
+  flex-direction: row;
+  /* align-items: flex-start; */
+  gap: 10px;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* Neutral/Nuetral 700 */
+  color: #363636;
+}
