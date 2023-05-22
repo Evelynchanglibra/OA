@@ -6,9 +6,23 @@ li {
 }
 
 mark.yellow {
-	background: linear-gradient(transparent 40%,rgba(255,255,255,0) 40%, #FFF176 90%,transparent 95%);	
-    padding: 2px 1px;
+  background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 40%, #FFF176 90%, transparent 95%);
+  padding: 2px 1px;
 }
+
+@media(max-width: 992px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 .content {
   display: flex;
@@ -38,7 +52,7 @@ mark.yellow {
 .container {
   /* display:flex; */
   max-width: 1320px;
-  max-height: 757px;
+  max-height: 768px;
   /* margin: 0 auto; */
   /* z-index: 0; */
 
@@ -120,7 +134,7 @@ mark.yellow {
 }
 
 .card-text {
-  position: absolute;
+  /* position: absolute; */
   width: 206px;
   height: 36px;
   left: calc(50% - 206px/2);
@@ -132,7 +146,6 @@ mark.yellow {
   /* identical to box height, or 36px */
   text-align: center;
   letter-spacing: 0.02em;
-
   /* Neutral/Nuetral 500 */
   color: #9A9A9A;
   margin-top: 36px;
@@ -140,7 +153,7 @@ mark.yellow {
 
 .text-muted {
   /* text */
- display: flex;
+  display: flex;
   max-width: 203px;
   max-height: 105px;
   /* left: calc(50% - 203px/2 - 0.5px); */
@@ -306,7 +319,7 @@ mark.yellow {
   letter-spacing: 0.02em;
   /* Neutral/Nuetral 700 */
   color: #363636;
-  
+
 }
 
 .h6 {
@@ -321,13 +334,6 @@ mark.yellow {
 }
 
 /**************************************************************/
-
-/* .container {
-  margin-bottom: 122px;
-  max-width: 1320px;
-  max-height: 712px;
-  border-radius: 24px;
-} */
 
 
 .card-title_1 {
@@ -369,7 +375,7 @@ mark.yellow {
 .card-text_1 {
   display: flex;
   margin-left: 76px;
-  margin-top :40px;
+  margin-top: 40px;
   font-family: 'Noto Sans TC';
   font-style: normal;
   font-weight: 400;
@@ -442,7 +448,7 @@ mark.yellow {
 }
 
 .text-muted_3 {
-  display: flex;
+  /* display: flex; */
   margin-left: -150px;
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -460,10 +466,11 @@ mark.yellow {
 .content_1 {
   /* display: flex; */
   /* position: absolute; */
-  width: 1320px;
-  max-height: 2000px;
+  width: 100%;
+  max-height: 100%;
   margin-top: 92px;
 }
+
 
 
 .title_big2 {
@@ -483,7 +490,14 @@ mark.yellow {
   letter-spacing: 0.02em;
   /* Neutral/Nuetral 700 */
   color: #363636;
+}
 
+.cardbox{
+  max-height:80%;
+}
+
+.scroll {
+	overflow: scroll;
 }
 
 .border-box2 {
@@ -692,8 +706,8 @@ mark.yellow {
 /************************/
 
 .content_2 {
-  width: 1076px;
-  height: 96px;
+  width: 80%;
+  height: 12%;
   box-sizing: border-box;
   /* left: calc(50% - 1076px/2); */
   /* display: flex; */
@@ -729,6 +743,8 @@ mark.yellow {
 /************************/
 
 .content_3 {
+  width: 70%;
+  height: 30%;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 292px;
@@ -858,7 +874,6 @@ mark.yellow {
   letter-spacing: 0.02em;
   /* Neutral/Nuetral 700 */
   color: #363636
-
 }
 
 
@@ -904,4 +919,18 @@ mark.yellow {
   letter-spacing: 0.02em;
   /* Neutral/Nuetral 700 */
   color: #363636;
+}
+
+
+.carouse {
+  display: flex;
+  overflow-y: scroll;
+  overflow-y: hidden;
+  -ms-scroll-snap-type: both mandatory;
+  scroll-snap-type: both mandatory;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background:none;
 }
