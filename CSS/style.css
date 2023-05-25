@@ -10,9 +10,9 @@ mark.yellow {
   padding: 2px 1px;
 }
 
-.banner{
-  padding-bottom:10px;
-  padding-top:100px;
+.banner {
+  padding-bottom: 10px;
+  padding-top: 100px;
 
 }
 
@@ -99,24 +99,6 @@ mark.yellow {
 
 }
 
-/* .card-text { */
-  /* width: 206px;
-  height: 36px;
-  /* left: calc(50% - 206px/2); */
-  /* font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px; */
-  /* line-height: 150%; */
-  /* identical to box height, or 36px */
-  /* text-align: center;
-  letter-spacing: 0.02em;
-  /* Neutral/Nuetral 500 */
-  /* color: #9A9A9A; */
-  /* margin-top: 36px; 
-}*/
-
-
 .text-muted {
   /* text */
   /* display: flex; */
@@ -182,7 +164,7 @@ mark.yellow {
   height: 120px;
   /* margin-top: 380px; */
   /* text-align: center; */
-  margin-left:155px;
+  margin-left: 155px;
   transform: translateY(310%);
 
 }
@@ -212,7 +194,7 @@ mark.yellow {
   /* 共同空間 */
   /* display: flex; */
   position: absolute;
-  maxwidth:26%;
+  maxwidth: 26%;
   maxheight: 72px;
   /* left: 147px; */
   /* margin-top: -36px; */
@@ -362,11 +344,11 @@ mark.yellow {
 }
 
 
-.card_work{
-  background:#FFFFFF;
-  width:90%;
-  height:280px;
-  padding-top: 50px;
+.card_work {
+  background: #FFFFFF;
+  width: 90%;
+  height: 280px;
+  /* padding-top: 50px; */
 
 }
 
@@ -385,7 +367,7 @@ mark.yellow {
   /* Neutral/Nuetral 700 */
   color: #363636;
   padding-left: 30px;
-  margin-top: 40px;
+  /* margin-top: -60px; */
 }
 
 
@@ -420,7 +402,7 @@ mark.yellow {
   /* Neutral/Nuetral 500 */
   color: #9A9A9A;
   padding-left: 30px;
-  
+
 
 }
 
@@ -435,7 +417,7 @@ mark.yellow {
 
 
 
-.title_big2{
+.title_big2 {
   /* display: flex; */
   /* position: absolute; */
   /* margin-left: 647px; */
@@ -457,7 +439,7 @@ mark.yellow {
 }
 
 .cardbox {
-  max-height:90%;
+  max-height: 90%;
 }
 
 .scroll {
@@ -468,7 +450,7 @@ mark.yellow {
   /* position: absolute; */
   text-align: center;
   font-size: 18px;
-  width:90%;
+  width: 90%;
   height: 58px;
   /* margin-left: 402px; */
   margin-top: 38px;
@@ -509,7 +491,7 @@ mark.yellow {
 
 }
 
-.card-title_4 .h4  {
+.card-title_4 .h4 {
   border-bottom: 1px #000 solid;
   /* padding-bottom: 5px; */
 }
@@ -706,9 +688,8 @@ mark.yellow {
 
 /*******************************************************************************************/
 
-.title_big4 {
+.banner-business {
   /* margin-left: 48px; */
-  padding-top: 20px;
   padding-top: 32px;
   /* Heading/mobile/H3 */
   font-family: 'Noto Sans TC';
@@ -775,11 +756,11 @@ mark.yellow {
   font-size: 24px;
   line-height: 150%;
    identical to box height, or 36px */
-  /* text-align: center;
+/* text-align: center;
   letter-spacing: 0.02em;
   Neutral/Nuetral 700 
   color: #363636; 
-}*/ 
+}*/
 
 
 
@@ -827,7 +808,8 @@ mark.yellow {
   color: #363636;
 }
 
-.carouse_success{
+.carouse_success {
+  /* display: flex; */
   overflow-y: scroll;
   overflow-y: hidden;
   -ms-scroll-snap-type: both mandatory;
@@ -843,102 +825,19 @@ mark.yellow {
   scroll-snap-type: both mandatory;
 }
 
+.banner-business {
+  overflow-y: scroll;
+  overflow-y: hidden;
+  -ms-scroll-snap-type: both mandatory;
+  scroll-snap-type: both mandatory;
+
+}
+
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   background: none;
 }
-
-.card-sale{
-
-}
-
-/********************/
-
-/*littlefor phone*/
-/* @media(min-width:320px){
-  .header.container {
-    height: auto;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-
-    .list li {
-      font-size: 18px;
-      width: 98%;
-    }
-  }
-
-} */
-
-
-/*smaall for phone*/
-@media(max-width:568px) {
-  .header.container {
-    height: auto;
-    width: 100%;
-    
-    flex-direction: column;
-    align-items: center;
-
-    .list li {
-      font-size: 18px;
-      width: 98%;
-    }
-  }
-}
-
-
-
-
-
-/*medium for landscape*/
-@media(max-width: 768px) {
-  .header.container {
-    height: auto;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-
-    .list li {
-      font-size: 18px;
-      width: 98%;
-    }
-  }
-}
-
-
-/*large for latops & desktops*/
-@media(max-width: 992px) {
-  .header.container {
-    height: auto;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-
-    .list li {
-      font-size: 18px;
-      width: 98%;
-    }
-  }
-}
-
-
-/*設定圖片響應式*/
-img {
-  max-width: 100%;
-  height: auto;
-   /*設定最大寬度 響應式*/
- height: auto;
-}
-
-/*全區域Border-box */
-*,
-*::before,
-*::after {
- box-sizing: border-box;
-}
-
 
 .x-icon {
   width: 31px;
@@ -958,4 +857,138 @@ img {
   /* /* display: flex; */
   /* position: absolute; */
   margin-left: 50px;
+}
+
+
+/********************/
+
+/*設定圖片響應式*/
+img {
+  max-width: 100%;
+  height: auto;
+  /*設定最大寬度 響應式*/
+  height: auto;
+}
+
+/*全區域Border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/*large for latops & desktops*/
+@media(max-width: 992px) {
+  .header.container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .list li {
+      font-size: 18px;
+      width: 98%;
+    }
+  }
+}
+
+
+
+/*medium for landscape*/
+@media(max-width: 768px) {
+  .header.container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .list li {
+      font-size: 18px;
+      width: 98%;
+    }
+  }
+}
+
+
+
+/*smaall for phone*/
+@media(max-width:568px) {
+  .header.container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .list li {
+      font-size: 18px;
+      width: 98%;
+    }
+  }
+}
+
+
+
+
+/*littlefor phone*/
+@media(min-width:300px) {
+  .header.container {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .list li {
+      font-size: 18px;
+      width: 98%;
+    }
+  }
+
+}
+
+
+
+
+
+.box-banner-1 {
+  width: 250px;
+  height: 130px;
+  order: 2px solid #E0E0E0;
+  border-radius: 24px;
+  background: #FFFFFF;
+  border: 2px solid #E0E0E0;
+  border-radius: 24px;
+  background: #FFFFFF;
+  justify-content: center;
+  
+}
+
+.card-title_little {
+  font-size: 40px;
+  font-family: custom-sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.card-text_little {
+  /* left: calc(50% - 206px/2); */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  margin-top: 26px;
+}
+
+.inter-icon {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border: 3px solid #A6B6F1;
+  margin-left: 220px;
+  margin-top: -100px;
+
 }
