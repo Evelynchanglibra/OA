@@ -798,13 +798,13 @@ mark.yellow {
 
 
 .border_box_1 {
-  width: 365px;
+  max-width: 365px;
   height: 134px;
   flex-direction: row;
   align-items: center;
   padding: 40px;
   gap: 10px;
-  margin-left: 45px;
+  /* margin-left: 45px; */
   top: 92px;
   /* Neutral/Neutral 200 */
   background: #F0F0F0;
