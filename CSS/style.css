@@ -793,7 +793,8 @@ mark.yellow {
   color: #363636;
 }
 
-/* .banner-business {
+/* 
+.banner-business {
   display: flex;
   overflow-y: scroll;
   overflow-y: hidden;
@@ -822,8 +823,9 @@ mark.yellow {
 
 
 
-.title-business{
-  /* margin-left: 48px; */
+.title-business {
+  padding: 10px;
+  margin-left: 48px;
   padding-top: 32px;
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -864,7 +866,7 @@ mark.yellow {
 /********************************/
 
 .box-banner-1 {
-  max-width:250px;
+  max-width: 250px;
   height: 130px;
   order: 2px solid #E0E0E0;
   border-radius: 24px;
@@ -898,8 +900,8 @@ mark.yellow {
 
 .inter-icon {
   box-sizing: border-box;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border: 3px solid #A6B6F1;
   margin-left: 230px;
   /* transform: translateX(250%); */
@@ -991,8 +993,4 @@ img {
     }
   }
 
-} 
-
-
-
-
+}
