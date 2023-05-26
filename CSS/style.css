@@ -825,7 +825,7 @@ mark.yellow {
 
 .title-business {
   padding: 10px;
-  margin-left: 48px;
+  /* margin-left: 48px; */
   padding-top: 32px;
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -863,51 +863,6 @@ mark.yellow {
 
 
 
-/********************************/
-
-.box-banner-1 {
-  max-width: 250px;
-  height: 130px;
-  order: 2px solid #E0E0E0;
-  border-radius: 24px;
-  background: #FFFFFF;
-  border: 2px solid #E0E0E0;
-  border-radius: 24px;
-  background: #FFFFFF;
-  justify-content: center;
-
-}
-
-.card-title_little {
-  font-size: 40px;
-  font-family: custom-sans-serif;
-  font-weight: 700;
-  text-align: center;
-  margin-top: -50px;
-}
-
-.card-text_little {
-  /* left: calc(50% - 206px/2); */
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #9A9A9A;
-  margin-top: 26px;
-}
-
-.inter-icon {
-  box-sizing: border-box;
-  width: 40px;
-  height: 40px;
-  border: 3px solid #A6B6F1;
-  margin-left: 230px;
-  /* transform: translateX(250%); */
-  transform: translateY(-190%);
-
-}
 
 
 /********************/
@@ -992,5 +947,51 @@ img {
       width: 98%;
     }
   }
+
+}
+
+/********************************/
+
+.box-banner-1 {
+  max-width:250px;
+  height: 130px;
+  order: 2px solid #E0E0E0;
+  border-radius: 24px;
+  background: #FFFFFF;
+  border: 2px solid #E0E0E0;
+  border-radius: 24px;
+  background: #FFFFFF;
+  justify-content: center;
+
+}
+
+.card-title_little {
+  font-size: 40px;
+  /* font-family: custom-sans-serif; */
+  font-weight: 700;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.card-text_little {
+  /* left: calc(50% - 206px/2); */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  margin-top: 26px;
+}
+
+.inter-icon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #A6B6F1;
+  margin-left: 230px;
+  /* transform: translateX(250%); */
+  transform: translateY(-190%);
 
 }
